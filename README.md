@@ -1,3 +1,5 @@
+Made using [this YouTube video](https://www.youtube.com/watch?v=qDqJZl32oN4).
+
 ## Getting Started
 
 Create a project using this example:
@@ -32,9 +34,3 @@ To learn more about thirdweb and Next.js, take a look at the following resources
 - [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Templates](https://thirdweb.com/templates)
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
