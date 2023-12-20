@@ -1,6 +1,13 @@
 import type { AppProps } from 'next/app';
 import { ThirdwebProvider } from '@thirdweb-dev/react';
 require('dotenv').config();
+
+
+import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
+import "primereact/resources/themes/saga-blue/theme.css";
+import "primereact/resources/primereact.css";
+// import "primeflex/primeflex.css";
+// import "primeicons/primeicons.css";
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -27,7 +34,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       }}
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
     >
-      <Component {...pageProps} />
+      <PrimeReactProvider>
+        <Component {...pageProps} />
+      </PrimeReactProvider>
     </ThirdwebProvider>
   );
 }
